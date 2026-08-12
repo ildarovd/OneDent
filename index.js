@@ -82,7 +82,7 @@ bot.onText(/\/narxlar|💰 Narxlar/, (msg) => {
 
 // ---------- Manzil / Bog'lanish (ixtiyoriy, xohlasangiz to'ldiring) ----------
 bot.onText(/📍 Manzil/, (msg) => {
-  bot.sendMessage(msg.chat.id, "📍 Manzil: shahringiz, ko'changiz, mo'ljal.\n🕒 Ish vaqti: 09:00–19:00");
+  bot.sendMessage(msg.chat.id, "📍 Manzil:Chorsudan Uychiga ketorish Sport maktab togʻrisida. \n🕒 Ish vaqti: 08:00–18:00");
 });
 bot.onText(/☎️ Bog'lanish/, (msg) => {
   bot.sendMessage(msg.chat.id, "☎️ Telefon: +998 90 888 15 55\n📷 Instagram: @onedent_uz\n\nSavollaringiz bo'lsa shu raqamga qo'ng'iroq qiling.");
